@@ -22,7 +22,6 @@ function ScoreBoard() {
 function Round(props) {
 
     let data = userData
-    console.log(data)
 
     let userList = []
     data.map(u =>
@@ -33,22 +32,26 @@ function Round(props) {
         <div class="row pt-md-5 pt-2">
             <h3>{props.data.round}</h3>
         </div>
-        <div class="row border-bottom">
-            <div class="col my-md-auto">
-                <h6 class="text-center d-none d-sm-block">Game</h6>
-                <p class="text-center d-sm-none fs-6 fw-lighter">g</p>
-            </div>
-            <div class="col my-md-auto">
-                <h6 class="text-center d-none d-sm-block">Winner</h6>
-                <p class="text-center d-sm-none fs-6 fw-lighter">w</p>
-            </div>
-            
-            {userList.map(u =>
-                <div class="col my-md-auto">
-                    <h6 class="text-center d-none d-sm-block">{u}</h6>
-                    <p class="text-center d-sm-none fs-6 fw-lighter">{u[0]}</p>
+        <div>
+            <div>
+                <div class="row border-bottom">
+                    <div class="col my-md-auto">
+                        <h6 class="text-center d-none d-sm-block">Game</h6>
+                        <p class="text-center d-sm-none fs-6 fw-lighter">g</p>
+                    </div>
+                    <div class="col my-md-auto">
+                        <h6 class="text-center d-none d-sm-block">Winner</h6>
+                        <p class="text-center d-sm-none fs-6 fw-lighter">w</p>
+                    </div>
+                    
+                    {userList.map(u =>
+                        <div class="col my-md-auto">
+                            <h6 class="text-center d-none d-md-block">{u}</h6>
+                            <p class="text-center d-md-none fs-6 fw-lighter">{u[0]+u[1]}</p>
+                        </div>
+                    )}
                 </div>
-            )}
+            </div>
         </div>
         {props.data.leagues.map(l =>
             <League data={l} userList={userList}/>
@@ -59,7 +62,7 @@ function Round(props) {
 
 function League(props) {
     return <div>
-        <div class="row border-bottom bg-light">{props.data.league}</div>
+        <div class="border-bottom bg-light">{props.data.league}</div>
         {props.data.games.map(g =>
             <Game data={g} userList={props.userList}/>    
         )}
@@ -96,7 +99,7 @@ function Game(props){
                 : <div class="col border-end"><Logo team={"X"}/></div>
             }
             {props.userList.map(u =>
-                (picksObj[u] == props.data.away && props.data.winner != "NFL")
+                (picksObj[u] == props.data.away && props.data.away != "NFL")
                     ? <div class="col"><Logo team={picksObj[u]}/></div>
                     : <div class="col"><Logo team={"X"}/></div>
             )}
@@ -107,12 +110,12 @@ function Game(props){
             <div class="col">
                 <Logo team={props.data.home} />
             </div>
-            {(props.data.away == props.data.winner && props.data.winner != "NFL")
+            {(props.data.home == props.data.winner && props.data.winner != "NFL")
                 ? <div class="col border-end"><Logo team={props.data.winner}/></div>
                 : <div class="col border-end"><Logo team={"X"}/></div>
             }
             {props.userList.map(u =>
-                (picksObj[u] == props.data.home && props.data.winner != "NFL")
+                (picksObj[u] == props.data.home && props.data.home != "NFL")
                     ? <div class="col"><Logo team={picksObj[u]}/></div>
                     : <div class="col"><Logo team={"X"}/></div>
             )}

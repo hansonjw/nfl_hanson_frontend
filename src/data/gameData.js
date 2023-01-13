@@ -13,7 +13,7 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "49ers"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Michele",
@@ -21,7 +21,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "49ers"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Kerry",
@@ -29,11 +29,11 @@ const gameData = [
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "49ers"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "49ers"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Keira",
@@ -41,7 +41,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "49ers"
+                                "team" : "SF"
                             }                     
                         ]
                     },
