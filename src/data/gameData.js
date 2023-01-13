@@ -17,7 +17,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Ryan",
@@ -57,7 +57,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "MIN"
                             },
                             {
                                 "username" : "Ryan",
@@ -97,7 +97,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "TB"
                             },
                             {
                                 "username" : "Ryan",
@@ -142,7 +142,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "LAC"
                             },
                             {
                                 "username" : "Ryan",
@@ -182,7 +182,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Ryan",
@@ -222,7 +222,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Ryan",
