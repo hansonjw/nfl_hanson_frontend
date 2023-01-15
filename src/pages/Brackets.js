@@ -7,7 +7,7 @@ import nflLogos from './../assets/nflLogos'
 
 // data
 import userData from '../data/userData.js'
-import bracketData from '../data/bracketData.js'
+import bracketPicksData from '../data/bracketPicksData.js'
 import bracketResults from '../data/bracketResults.js'
 
 // components
@@ -20,7 +20,7 @@ function Brackets () {
             <UserBracket user={bracketResults} />
         </div>
         <div class="row row-cols-1 row-cols-md-2">
-        {bracketData.map(u=>
+        {bracketPicksData.map(u=>
             <div class="col">
                 <UserBracket user={u}/>
             </div>

@@ -1,4 +1,4 @@
-const bracketData = [
+const bracketPicksData = [
     {
         username:"Grandpa",
         AD1:"NFL",
@@ -81,4 +81,4 @@ const bracketData = [
     },
 ]
 
-export default bracketData
+export default bracketPicksData
