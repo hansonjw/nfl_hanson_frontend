@@ -1,16 +1,32 @@
+// modules
 import * as React from "react";
 import { Link } from "react-router-dom";
 
 // content
-import NFL from './../assets/content/images/NFL.svg'
+import nflLogos from './../assets/nflLogos'
+
+// data
+import userData from '../data/userData.js'
+import bracketData from '../data/bracketData.js'
+import bracketResults from '../data/bracketResults.js'
+
+// components
+import UserBracket from './components/UserBracket'
 
 
 function Brackets () {
-    return <div class="row py-5">
-        <h1 class="text-center">Page under construction</h1>
-        <p class="text-center"></p>
-        <img src={NFL} alt="nfl-logo" />
-    </div>;
+    return <div class="container row-col">
+        <div>
+            <UserBracket user={bracketResults} />
+        </div>
+        <div class="row row-cols-1 row-cols-md-2">
+        {bracketData.map(u=>
+            <div class="col">
+                <UserBracket user={u}/>
+            </div>
+        )}
+        </div>
+    </div>
 }
 
 export default Brackets;
