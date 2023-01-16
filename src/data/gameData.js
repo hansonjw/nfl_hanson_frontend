@@ -214,7 +214,7 @@ const gameData = [
                         "game_id" : 6,
                         "home": "CIN",
                         "away": "BAL",
-                        "winner": "NFL",
+                        "winner": "CIN",
                         "picks" : [
                             {
                                 "username" : "Grandpa",

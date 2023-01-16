@@ -76,13 +76,15 @@ function Game(props){
         picksObj[p.username] = p.team
     })
 
+    // establish variables for class and coloring winning row
     let awayRow = "row";
     let homeRow = "row";
 
+    // make row green if winner = away team
     if (props.data.winner == props.data.away && props.data.winner != "NFL"){
-        awayRow = "row bg-success bg-opacity-25"
+        awayRow = "row bg-success bg-opacity-10"
     }
-
+    // make row green if winner = home team
     if (props.data.winner == props.data.home && props.data.winner != "NFL"){
         homeRow = "row bg-success bg-opacity-10"
     }
