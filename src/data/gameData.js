@@ -49,7 +49,7 @@ const gameData = [
                         "game_id" : 3,
                         "home": "MIN",
                         "away": "NYG",
-                        "winner": "NFL",
+                        "winner": "NYG",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
