@@ -21,9 +21,9 @@ function UserBracket (props) {
         <div class="row">
             {/* NFC */}
             <div class="col my-auto">
-                <img class="img-fluid" src={nflLogos["NFL"]} />
-                <img class="img-fluid" src={nflLogos["NFL"]} />
-                <img class="img-fluid" src={nflLogos["NFL"]} />
+                <img class="img-fluid" src={nflLogos["DAL"]} />
+                <img class="img-fluid" src={nflLogos["SF"]} />
+                <img class="img-fluid" src={nflLogos["NYG"]} />
                 <img class="img-fluid" src={nflLogos["PHI"]} />
             </div>
             <div class="col my-auto">
@@ -51,9 +51,9 @@ function UserBracket (props) {
                 <img class="img-fluid" src={nflLogos[props.user.AD1]} />
             </div>
             <div class="col my-auto">
-                <img class="img-fluid" src={nflLogos["NFL"]} />
-                <img class="img-fluid" src={nflLogos["NFL"]} />
-                <img class="img-fluid" src={nflLogos["NFL"]} />
+                <img class="img-fluid" src={nflLogos["CIN"]} />
+                <img class="img-fluid" src={nflLogos["BUF"]} />
+                <img class="img-fluid" src={nflLogos["JAX"]} />
                 <img class="img-fluid" src={nflLogos["KC"]} />
             </div>
 

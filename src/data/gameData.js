@@ -89,7 +89,7 @@ const gameData = [
                         "game_id" : 5,
                         "home": "DAL",
                         "away": "TB",
-                        "winner": "NFL",
+                        "winner": "DAL",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -262,8 +262,8 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 7,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "PHI",
+                        "away": "NYG",
                         "winner": "NFL",
                         "picks" : [
                             {
@@ -302,8 +302,8 @@ const gameData = [
                     },
                     {
                         "game_id" : 9,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "SF",
+                        "away": "DAL",
                         "winner": "NFL",
                         "picks" : [
                             {
@@ -347,8 +347,8 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 8,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "KC",
+                        "away": "JAX",
                         "winner": "NFL",
                         "picks" : [
                             {
@@ -387,8 +387,8 @@ const gameData = [
                     },
                     {
                         "game_id" : 10,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "BUF",
+                        "away": "CIN",
                         "winner": "NFL",
                         "picks" : [
                             {
