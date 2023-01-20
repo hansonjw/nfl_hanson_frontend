@@ -7,7 +7,7 @@ const bracketPicksData = [
         ND2:"SF",
         AC1:"KC",
         NC1:"SF",
-        SB: "NFL"
+        SB: "KC"
     },
     {
         username:"Michele",
