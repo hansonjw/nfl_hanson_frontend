@@ -272,7 +272,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Ryan",
@@ -312,7 +312,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Ryan",
@@ -357,7 +357,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Ryan",
@@ -397,7 +397,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Michele",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Ryan",
