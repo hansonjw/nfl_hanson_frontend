@@ -268,7 +268,7 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "NYG"
                             },
                             {
                                 "username" : "Michele",
@@ -308,7 +308,7 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Michele",
@@ -353,7 +353,7 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Michele",
@@ -393,7 +393,7 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Michele",
