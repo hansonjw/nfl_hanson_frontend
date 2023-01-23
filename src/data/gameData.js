@@ -264,7 +264,7 @@ const gameData = [
                         "game_id" : 7,
                         "home": "PHI",
                         "away": "NYG",
-                        "winner": "NFL",
+                        "winner": "PHI",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -304,7 +304,7 @@ const gameData = [
                         "game_id" : 9,
                         "home": "SF",
                         "away": "DAL",
-                        "winner": "NFL",
+                        "winner": "SF",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -349,7 +349,7 @@ const gameData = [
                         "game_id" : 8,
                         "home": "KC",
                         "away": "JAX",
-                        "winner": "NFL",
+                        "winner": "KC",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -389,7 +389,7 @@ const gameData = [
                         "game_id" : 10,
                         "home": "BUF",
                         "away": "CIN",
-                        "winner": "NFL",
+                        "winner": "CIN",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -436,8 +436,8 @@ const gameData = [
                 "league" : "NFC",
                 "games" : [{
                     "game_id" : 11,
-                    "home": "NFL",
-                    "away": "NFL",
+                    "home": "PHI",
+                    "away": "SF",
                     "winner": "NFL",
                     "picks" : [
                         {
@@ -479,8 +479,8 @@ const gameData = [
                 "league" : "AFC",
                 "games" : [{
                     "game_id" : 12,
-                    "home": "NFL",
-                    "away": "NFL",
+                    "home": "KC",
+                    "away": "CIN",
                     "winner": "NFL",
                     "picks" : [
                         {
