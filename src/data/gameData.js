@@ -466,7 +466,7 @@ const gameData = [
                         },
                         {
                             "username" : "Keira",
-                            "team" : "NFL"
+                            "team" : "SF"
                         },
                         {
                             "username" : "Tegan",
@@ -509,7 +509,7 @@ const gameData = [
                         },
                         {
                             "username" : "Keira",
-                            "team" : "NFL"
+                            "team" : "CIN"
                         },
                         {
                             "username" : "Tegan",
