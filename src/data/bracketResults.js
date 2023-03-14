@@ -4,9 +4,9 @@ const bracketResults = {
         AD2:"CIN",
         ND1:"PHI",
         ND2:"SF",
-        AC1:"NFL",
-        NC1:"NFL",
-        SB: "NFL"
+        AC1:"KC",
+        NC1:"PHI",
+        SB: "KC"
 }
 
 export default bracketResults
