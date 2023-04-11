@@ -7,4 +7,4 @@ This is the github repository for our family NFL playoffs pick'em league.  We us
 This site was build with Javascript, HTML, CSS, React, and Bootstrap.
 
 ## Contact
-Please visit either my github page or my personal site [www.justin-codes.com](https://www.justin-codes.com) if you would like to get in touch with me.
+Please visit either my github page or the contact page at my personal site [www.justin-codes.com/contact](https://www.justin-codes.com/contact) if you would like to get in touch with me.
