@@ -4,10 +4,6 @@ const userData = [
         "password": "xxx"
     },
     {
-        "username": "Michele",
-        "password": "xxx"
-    },
-    {
         "username": "Ryan",
         "password": "xxx"
     },

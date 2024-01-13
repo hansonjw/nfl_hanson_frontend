@@ -7,109 +7,121 @@ const gameData = [
                 "games" : [
                     {   
                         "game_id" : 1,
-                        "home": "DAL",
-                        "away": "GB",
-                        "winner": "NFL",
+                        "home": "SF",
+                        "away": "SEA",
+                        "winner": "SF",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "DAL"
+                                "team" : "SF"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "DAL"
+                                "team" : "SEA"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "DAL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "DAL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "SEA"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "DAL"
+                                "team" : "SF"
                             }                     
                         ]
                     },
                     {
                         "game_id" : 3,
-                        "home": "DET",
-                        "away": "LAR",
-                        "winner": "NFL",
+                        "home": "MIN",
+                        "away": "NYG",
+                        "winner": "NYG",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "LAR"
+                                "team" : "NYG"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "MIN"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "NYG"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "DET"
+                                "team" : "MIN"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "DET"
+                                "team" : "MIN"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "DET"
+                                "team" : "NYG"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "NYG"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "DET"
+                                "team" : "MIN"
                             }                     
                         ]
                     },
                     {
                         "game_id" : 5,
-                        "home": "TB",
-                        "away": "PHI",
-                        "winner": "NFL",
+                        "home": "DAL",
+                        "away": "TB",
+                        "winner": "DAL",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
                                 "team" : "TB"
                             },
                             {
+                                "username" : "Michele",
+                                "team" : "TB"
+                            },
+                            {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "PHI"
+                                "team" : "TB"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "PHI"
+                                "team" : "TB"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "TB"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "TB"
+                                "team" : "DAL"
                             }                    
                         ]
                     }
@@ -120,109 +132,121 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 2,
-                        "home": "HOU",
-                        "away": "CLE",
-                        "winner": "NFL",
+                        "home": "JAX",
+                        "away": "LAC",
+                        "winner": "JAX",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "HOU"
+                                "team" : "JAX"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "LAC"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "JAX"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "HOU"
+                                "team" : "JAX"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "CLE"
+                                "team" : "LAC"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "CLE"
+                                "team" : "LAC"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "JAX"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "HOU"
+                                "team" : "JAX"
                             }                  
                         ]
                     },
                     {
                         "game_id" : 4,
-                        "home": "MIA",
-                        "away": "KC",
-                        "winner": "NFL",
+                        "home": "BUF",
+                        "away": "MIA",
+                        "winner": "BUF",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "KC"
+                                "team" : "BUF"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "KC"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "MIA"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "MIA"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "MIA"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "KC"
+                                "team" : "MIA"
                             }                   
                         ]
                     },
                     {
                         "game_id" : 6,
-                        "home": "BUF",
-                        "away": "PIT",
-                        "winner": "NFL",
+                        "home": "CIN",
+                        "away": "BAL",
+                        "winner": "CIN",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "BUF"
+                                "team" : "CIN"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "BUF"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "BUF"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "PIT"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "BUF"
+                                "team" : "CIN"
                             }                   
                         ]
                     }
@@ -238,73 +262,81 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 7,
-                        "home": "NFL",
-                        "away": "NFL",
-                        "winner": "NFL",
+                        "home": "PHI",
+                        "away": "NYG",
+                        "winner": "PHI",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "NYG"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "NYG"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             }                 
                         ]
                     },
                     {
                         "game_id" : 9,
-                        "home": "NFL",
-                        "away": "NFL",
-                        "winner": "NFL",
+                        "home": "SF",
+                        "away": "DAL",
+                        "winner": "SF",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "SF"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "SF"
                             }                   
                         ]
                     }
@@ -315,73 +347,81 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 8,
-                        "home": "NFL",
-                        "away": "NFL",
-                        "winner": "NFL",
+                        "home": "KC",
+                        "away": "JAX",
+                        "winner": "KC",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "KC"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "JAX"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Keira",
-                                 "team" : "NFL"
+                                 "team" : "KC"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "KC"
                             }                   
                         ]
                     },
                     {
                         "game_id" : 10,
-                        "home": "NFL",
-                        "away": "NFL",
-                        "winner": "NFL",
+                        "home": "BUF",
+                        "away": "CIN",
+                        "winner": "CIN",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "BUF"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "CIN"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "CIN"
                             }                     
                         ]
                     }
@@ -396,37 +436,41 @@ const gameData = [
                 "league" : "NFC",
                 "games" : [{
                     "game_id" : 11,
-                    "home": "NFL",
-                    "away": "NFL",
-                    "winner": "NFL",
+                    "home": "PHI",
+                    "away": "SF",
+                    "winner": "PHI",
                     "picks" : [
                         {
                             "username" : "Grandpa",
-                            "team" : "NFL"
+                            "team" : "SF"
+                        },
+                        {
+                            "username" : "Michele",
+                            "team" : "PHI"
                         },
                         {
                             "username" : "Ryan",
-                            "team" : "NFL"
+                            "team" : "SF"
                         },
                         {
                             "username" : "Kerry",
-                            "team" : "NFL"
+                            "team" : "SF"
                         },
                         {
                             "username" : "Justin",
-                            "team" : "NFL"
+                            "team" : "PHI"
                         },
                         {
                             "username" : "Regina",
-                            "team" : "NFL"
+                            "team" : "PHI"
                         },
                         {
                             "username" : "Keira",
-                            "team" : "NFL"
+                            "team" : "SF"
                         },
                         {
                             "username" : "Tegan",
-                            "team" : "NFL"
+                            "team" : "SF"
                         }                     
                     ]
                 }]
@@ -435,37 +479,41 @@ const gameData = [
                 "league" : "AFC",
                 "games" : [{
                     "game_id" : 12,
-                    "home": "NFL",
-                    "away": "NFL",
-                    "winner": "NFL",
+                    "home": "KC",
+                    "away": "CIN",
+                    "winner": "KC",
                     "picks" : [
                         {
                             "username" : "Grandpa",
-                            "team" : "NFL"
+                            "team" : "KC"
+                        },
+                        {
+                            "username" : "Michele",
+                            "team" : "KC"
                         },
                         {
                             "username" : "Ryan",
-                            "team" : "NFL"
+                            "team" : "CIN"
                         },
                         {
                             "username" : "Kerry",
-                            "team" : "NFL"
+                            "team" : "KC"
                         },
                         {
                             "username" : "Justin",
-                            "team" : "NFL"
+                            "team" : "CIN"
                         },
                         {
                             "username" : "Regina",
-                            "team" : "NFL"
+                            "team" : "CIN"
                         },
                         {
                             "username" : "Keira",
-                            "team" : "NFL"
+                            "team" : "CIN"
                         },
                         {
                             "username" : "Tegan",
-                            "team" : "NFL"
+                            "team" : "CIN"
                         }                    
                     ]
                 }]
@@ -480,37 +528,41 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 13,
-                        "home": "NFL",
-                        "away": "NFL",
-                        "winner": "NFL",
+                        "home": "PHI",
+                        "away": "KC",
+                        "winner": "KC",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "KC"
+                            },
+                            {
+                                "username" : "Michele",
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "KC"
                             }                    
                         ]
                     }
