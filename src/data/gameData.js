@@ -17,7 +17,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Kerry",
@@ -33,7 +33,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Tegan",
@@ -53,7 +53,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "LAR"
                             },
                             {
                                 "username" : "Kerry",
@@ -69,7 +69,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Tegan",
@@ -89,7 +89,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Kerry",
@@ -105,7 +105,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Tegan",
@@ -130,7 +130,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "HOU"
                             },
                             {
                                 "username" : "Kerry",
@@ -146,7 +146,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "HOU"
                             },
                             {
                                 "username" : "Tegan",
@@ -166,7 +166,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "MIA"
                             },
                             {
                                 "username" : "Kerry",
@@ -182,7 +182,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "MIA"
                             },
                             {
                                 "username" : "Tegan",
@@ -202,7 +202,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Kerry",
@@ -218,7 +218,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Tegan",
