@@ -81,7 +81,7 @@ const gameData = [
                         "game_id" : 5,
                         "home": "TB",
                         "away": "PHI",
-                        "winner": "NFL",
+                        "winner": "TB",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -194,7 +194,7 @@ const gameData = [
                         "game_id" : 6,
                         "home": "BUF",
                         "away": "PIT",
-                        "winner": "NFL",
+                        "winner": "BUF",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
