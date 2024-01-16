@@ -238,8 +238,8 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 7,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "DET",
+                        "away": "TB",
                         "winner": "NFL",
                         "picks" : [
                             {
@@ -274,8 +274,8 @@ const gameData = [
                     },
                     {
                         "game_id" : 9,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "SF",
+                        "away": "GB",
                         "winner": "NFL",
                         "picks" : [
                             {
@@ -315,8 +315,8 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 8,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "BAL",
+                        "away": "HOU",
                         "winner": "NFL",
                         "picks" : [
                             {
@@ -351,8 +351,8 @@ const gameData = [
                     },
                     {
                         "game_id" : 10,
-                        "home": "NFL",
-                        "away": "NFL",
+                        "home": "BUF",
+                        "away": "KC",
                         "winner": "NFL",
                         "picks" : [
                             {
