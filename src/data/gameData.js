@@ -244,31 +244,31 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "TB"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "TB"
                             }                 
                         ]
                     },
@@ -280,31 +280,31 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "GB"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "GB"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "SF"
                             }                   
                         ]
                     }
@@ -321,31 +321,31 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "BAL"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "BAL"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "HOU"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "BAL"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "BAL"
                             },
                             {
                                 "username" : "Keira",
-                                 "team" : "NFL"
+                                 "team" : "BAL"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "BAL"
                             }                   
                         ]
                     },
@@ -357,31 +357,31 @@ const gameData = [
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "NFL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "NFL"
+                                "team" : "BUF"
                             }                     
                         ]
                     }
