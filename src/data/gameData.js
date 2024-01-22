@@ -240,7 +240,7 @@ const gameData = [
                         "game_id" : 7,
                         "home": "DET",
                         "away": "TB",
-                        "winner": "NFL",
+                        "winner": "DET",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -276,7 +276,7 @@ const gameData = [
                         "game_id" : 9,
                         "home": "SF",
                         "away": "GB",
-                        "winner": "NFL",
+                        "winner": "SF",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -317,7 +317,7 @@ const gameData = [
                         "game_id" : 8,
                         "home": "BAL",
                         "away": "HOU",
-                        "winner": "NFL",
+                        "winner": "BAL",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -353,7 +353,7 @@ const gameData = [
                         "game_id" : 10,
                         "home": "BUF",
                         "away": "KC",
-                        "winner": "NFL",
+                        "winner": "KC",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -396,8 +396,8 @@ const gameData = [
                 "league" : "NFC",
                 "games" : [{
                     "game_id" : 11,
-                    "home": "NFL",
-                    "away": "NFL",
+                    "home": "SF",
+                    "away": "DET",
                     "winner": "NFL",
                     "picks" : [
                         {
@@ -426,7 +426,7 @@ const gameData = [
                         },
                         {
                             "username" : "Tegan",
-                            "team" : "NFL"
+                            "team" : "SF"
                         }                     
                     ]
                 }]
@@ -435,8 +435,8 @@ const gameData = [
                 "league" : "AFC",
                 "games" : [{
                     "game_id" : 12,
-                    "home": "NFL",
-                    "away": "NFL",
+                    "home": "BAL",
+                    "away": "KC",
                     "winner": "NFL",
                     "picks" : [
                         {
@@ -465,7 +465,7 @@ const gameData = [
                         },
                         {
                             "username" : "Tegan",
-                            "team" : "NFL"
+                            "team" : "BAL"
                         }                    
                     ]
                 }]
