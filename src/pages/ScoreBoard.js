@@ -7,15 +7,53 @@ import userData from '../data/userData.js'
 
 
 function ScoreBoard() {
+    return <div>
+        <div>{TallyScores()}</div>
+        <div class="container">
+            <div class="row pt-md-5 pt-2">
+                <h3>{"Games / Picks"}</h3>
+            </div>
+        </div>
+        <div class="container">
+            {gameData.map(r =>
+                <div>
+                    <Round data={r} />
+                </div>
+                )}
+        </div>
+    </div>;
+}
 
+function TallyScores() {
+    let uDat = userData
+    let gDat = gameData
+    let userScores = {}
+
+    uDat.map(u=>userScores[u.username]=0)
+
+    gDat.map(round=>round.leagues.map(league=>league.games.map(game=>game.picks.map(pick=>
+        {if(game.winner == pick.team){
+            userScores[pick.username] += 1
+        }}
+    ))));
+
+    const sorted = Object.entries(userScores).sort(([c1, v1], [c2, v2]) => {
+        return v2 - v1;
+    })
 
     return <div class="container">
-        {gameData.map(r =>
-            <div>
-                <Round data={r} />
-            </div>
+        <div class="row pt-md-5 pt-2">
+            <h3>{"Scores / Standings"}</h3>
+        </div>
+        <div class="row border-bottom">
+            {sorted.map(u => 
+                <div class="col my-md-auto">
+                    <h6 class="text-center d-none d-md-block">{u[0]}</h6>
+                    <h6 class="text-center d-none d-md-block">{u[1]}</h6>
+                </div>
             )}
-    </div>;
+        </div>
+    </div>
 }
 
 
