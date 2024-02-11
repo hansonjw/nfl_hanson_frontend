@@ -48,8 +48,7 @@ function TallyScores() {
         <div class="row border-bottom">
             {sorted.map(u => 
                 <div class="col my-md-auto">
-                    <h6 class="text-center d-none d-md-block">{u[0]}</h6>
-                    <h6 class="text-center d-none d-md-block">{u[1]}</h6>
+                    <h6 class="text-center d-none d-md-block">{u[0]}: {u[1]}</h6>
                 </div>
             )}
         </div>
