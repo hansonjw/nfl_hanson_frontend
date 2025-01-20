@@ -7,109 +7,109 @@ const gameData = [
                 "games" : [
                     {   
                         "game_id" : 1,
-                        "home": "PHI",
+                        "home": "DAL",
                         "away": "GB",
-                        "winner": "PHI",
+                        "winner": "GB",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "PHI"
+                                "team" : "DAL"
                             }                     
                         ]
                     },
                     {
                         "game_id" : 3,
-                        "home": "TB",
-                        "away": "WAS",
-                        "winner": "WAS",
+                        "home": "DET",
+                        "away": "LAR",
+                        "winner": "DET",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "TB"
+                                "team" : "LAR"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "WAS"
+                                "team" : "LAR"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "WAS"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "WAS"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "WAS"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "TB"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "TB"
+                                "team" : "DET"
                             }                     
                         ]
                     },
                     {
                         "game_id" : 5,
-                        "home": "LAR",
-                        "away": "MIN",
-                        "winner": "LAR",
+                        "home": "TB",
+                        "away": "PHI",
+                        "winner": "TB",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "LAR"
+                                "team" : "TB"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "MIN"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "MIN"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "MIN"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "MIN"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "LAR"
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "LAR"
+                                "team" : "TB"
                             }                    
                         ]
                     }
@@ -121,12 +121,12 @@ const gameData = [
                     {
                         "game_id" : 2,
                         "home": "HOU",
-                        "away": "LAC",
+                        "away": "CLE",
                         "winner": "HOU",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "LAC"
+                                "team" : "HOU"
                             },
                             {
                                 "username" : "Ryan",
@@ -138,15 +138,15 @@ const gameData = [
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "LAC"
+                                "team" : "CLE"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "LAC"
+                                "team" : "CLE"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "LAC"
+                                "team" : "HOU"
                             },
                             {
                                 "username" : "Tegan",
@@ -156,44 +156,44 @@ const gameData = [
                     },
                     {
                         "game_id" : 4,
-                        "home": "BAL",
-                        "away": "PIT",
-                        "winner": "BAL",
+                        "home": "KC",
+                        "away": "MIA",
+                        "winner": "KC",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "BAL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "BAL"
+                                "team" : "MIA"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "BAL"
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "BAL"
+                                "team" : "MIA"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "PIT"
+                                "team" : "MIA"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "BAL"
+                                "team" : "MIA"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "BAL"
+                                "team" : "KC"
                             }                   
                         ]
                     },
                     {
                         "game_id" : 6,
                         "home": "BUF",
-                        "away": "DEN",
+                        "away": "PIT",
                         "winner": "BUF",
                         "picks" : [
                             {
@@ -202,11 +202,11 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "DEN"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "DEN"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Justin",
@@ -214,15 +214,15 @@ const gameData = [
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "DEN"
+                                "team" : "PIT"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "DEN"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "DEN"
+                                "team" : "BUF"
                             }                   
                         ]
                     }
@@ -238,73 +238,73 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 7,
-                        "home": "PHI",
-                        "away": "LAR",
-                        "winner": "PHI",
+                        "home": "DET",
+                        "away": "TB",
+                        "winner": "DET",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "PHI"
+                                "team" : "TB"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "LAR"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "PHI"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "PHI"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "PHI"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "PHI"
+                                "team" : "DET"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "PHI"
+                                "team" : "TB"
                             }                 
                         ]
                     },
                     {
                         "game_id" : 9,
-                        "home": "DET",
-                        "away": "WAS",
-                        "winner": "WAS",
+                        "home": "SF",
+                        "away": "GB",
+                        "winner": "SF",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : "DET"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "DET"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "DET"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "DET"
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "DET"
+                                "team" : "GB"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : "DET"
+                                "team" : "GB"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "DET"
+                                "team" : "SF"
                             }                   
                         ]
                     }
@@ -315,9 +315,9 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 8,
-                        "home": "BUF",
-                        "away": "BAL",
-                        "winner": "BUF",
+                        "home": "BAL",
+                        "away": "HOU",
+                        "winner": "BAL",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
@@ -329,7 +329,7 @@ const gameData = [
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "BAL"
+                                "team" : "HOU"
                             },
                             {
                                 "username" : "Justin",
@@ -337,11 +337,11 @@ const gameData = [
                             },
                             {
                                 "username" : "Regina",
-                                "team" : "BUF"
+                                "team" : "BAL"
                             },
                             {
                                 "username" : "Keira",
-                                 "team" : "BUF"
+                                 "team" : "BAL"
                             },
                             {
                                 "username" : "Tegan",
@@ -351,8 +351,8 @@ const gameData = [
                     },
                     {
                         "game_id" : 10,
-                        "home": "KC",
-                        "away": "HOU",
+                        "home": "BUF",
+                        "away": "KC",
                         "winner": "KC",
                         "picks" : [
                             {
@@ -361,27 +361,27 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : "HOU"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : "HOU"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : "HOU"
-                            },
-                            {
-                                "username" : "Regina",
                                 "team" : "KC"
                             },
                             {
+                                "username" : "Regina",
+                                "team" : "BUF"
+                            },
+                            {
                                 "username" : "Keira",
-                                "team" : "HOU"
+                                "team" : "BUF"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : "HOU"
+                                "team" : "BUF"
                             }                     
                         ]
                     }
@@ -396,37 +396,37 @@ const gameData = [
                 "league" : "NFC",
                 "games" : [{
                     "game_id" : 11,
-                    "home": "PHI",
-                    "away": "WAS",
-                    "winner": "",
+                    "home": "SF",
+                    "away": "DET",
+                    "winner": "SF",
                     "picks" : [
                         {
                             "username" : "Grandpa",
-                            "team" : ""
+                            "team" : "SF"
                         },
                         {
                             "username" : "Ryan",
-                            "team" : ""
+                            "team" : "DET"
                         },
                         {
                             "username" : "Kerry",
-                            "team" : ""
+                            "team" : "SF"
                         },
                         {
                             "username" : "Justin",
-                            "team" : ""
+                            "team" : "DET"
                         },
                         {
                             "username" : "Regina",
-                            "team" : ""
+                            "team" : "DET"
                         },
                         {
                             "username" : "Keira",
-                            "team" : ""
+                            "team" : "DET"
                         },
                         {
                             "username" : "Tegan",
-                            "team" : ""
+                            "team" : "SF"
                         }                     
                     ]
                 }]
@@ -435,37 +435,37 @@ const gameData = [
                 "league" : "AFC",
                 "games" : [{
                     "game_id" : 12,
-                    "home": "KC",
-                    "away": "BUF",
-                    "winner": "",
+                    "home": "BAL",
+                    "away": "KC",
+                    "winner": "KC",
                     "picks" : [
                         {
                             "username" : "Grandpa",
-                            "team" : ""
+                            "team" : "KC"
                         },
                         {
                             "username" : "Ryan",
-                            "team" : ""
+                            "team" : "BAL"
                         },
                         {
                             "username" : "Kerry",
-                            "team" : ""
+                            "team" : "KC"
                         },
                         {
                             "username" : "Justin",
-                            "team" : ""
+                            "team" : "BAL"
                         },
                         {
                             "username" : "Regina",
-                            "team" : ""
+                            "team" : "BAL"
                         },
                         {
                             "username" : "Keira",
-                            "team" : ""
+                            "team" : "BAL"
                         },
                         {
                             "username" : "Tegan",
-                            "team" : ""
+                            "team" : "BAL"
                         }                    
                     ]
                 }]
@@ -480,37 +480,37 @@ const gameData = [
                 "games" : [
                     {
                         "game_id" : 13,
-                        "home": "",
-                        "away": "",
-                        "winner": "",
+                        "home": "KC",
+                        "away": "SF",
+                        "winner": "KC",
                         "picks" : [
                             {
                                 "username" : "Grandpa",
-                                "team" : ""
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : ""
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : ""
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Justin",
-                                "team" : ""
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Regina",
-                                "team" : ""
+                                "team" : "KC"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : ""
+                                "team" : "SF"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : ""
+                                "team" : "SF"
                             }                    
                         ]
                     }
