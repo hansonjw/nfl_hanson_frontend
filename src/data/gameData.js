@@ -398,11 +398,11 @@ const gameData = [
                     "game_id" : 11,
                     "home": "PHI",
                     "away": "WAS",
-                    "winner": "NFL",
+                    "winner": "PHI",
                     "picks" : [
                         {
                             "username" : "Grandpa",
-                            "team" : ""
+                            "team" : "PHI"
                         },
                         {
                             "username" : "Ryan",
@@ -410,7 +410,7 @@ const gameData = [
                         },
                         {
                             "username" : "Kerry",
-                            "team" : ""
+                            "team" : "PHI"
                         },
                         {
                             "username" : "Justin",
@@ -441,7 +441,7 @@ const gameData = [
                     "picks" : [
                         {
                             "username" : "Grandpa",
-                            "team" : ""
+                            "team" : "KC"
                         },
                         {
                             "username" : "Ryan",
@@ -449,7 +449,7 @@ const gameData = [
                         },
                         {
                             "username" : "Kerry",
-                            "team" : ""
+                            "team" : "BUF"
                         },
                         {
                             "username" : "Justin",
