@@ -490,11 +490,11 @@ const gameData = [
                             },
                             {
                                 "username" : "Ryan",
-                                "team" : ""
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Kerry",
-                                "team" : ""
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Justin",
@@ -502,15 +502,15 @@ const gameData = [
                             },
                             {
                                 "username" : "Regina",
-                                "team" : ""
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Keira",
-                                "team" : ""
+                                "team" : "PHI"
                             },
                             {
                                 "username" : "Tegan",
-                                "team" : ""
+                                "team" : "PHI"
                             }                    
                         ]
                     }
